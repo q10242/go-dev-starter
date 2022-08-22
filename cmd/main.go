@@ -13,6 +13,7 @@ import (
 func main() {
 	r := mux.NewRouter()
 	routes.RegisterRoutes(r)
+	routes.RegisterAuthApiRoutes(r)
 	http.Handle("/", r)
 	log.Fatal(http.ListenAndServe(os.Getenv("APP_URL")+":"+os.Getenv("APP_PORT"), r))
 }

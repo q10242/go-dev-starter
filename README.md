@@ -1,4 +1,17 @@
 TO-DO List
-[ ] add .env file and settings 
+--
+
+[x] add .env file and settings 
 [ ] link to mysql
-[ ] tests
+
+[ ] Auth
+    - [ ] register
+    - [ ] login
+    - [ ] logout
+    - [ ] getProfile
+    - [ ] listAllUsers
+    - [ ] Email Sertificate Check
+    - [ ] Edit Profile
+    - [ ] issueToken
+    - [ ] renewToken
+[ ] permissions
